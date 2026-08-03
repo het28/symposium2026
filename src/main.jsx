@@ -36,11 +36,11 @@ const schedule = [
 ];
 
 const organisers = [
-  { group: "General Chair", name: "Prof. Dr.-Ing. Ernesto William De Luca", role: "Head, Human-Centred Artificial Intelligence Research Group", image: "./images/organisers/ernesto.jpg", email: "ernesto.deluca@ovgu.de", website: "https://www.ernestodeluca.de/" },
+  { group: "General Chair", name: "Prof. Dr.-Ing. Ernesto William De Luca", role: "Head, Human-Centred Artificial Intelligence Research Group", image: "./images/organisers/ernesto.jpg", email: "ernesto.deluca@ovgu.de", website: "https://ernestodeluca.eu/cv" },
   { group: "Local Organising Committee", name: "M.Sc. Het Darshan Mehta", role: "Scientific Researcher · HCAI, OVGU", image: "./images/organisers/het.jpeg", email: "het.mehta@ovgu.de", website: "https://hetmehta.eu/" },
-  { group: "Local Organising Committee", name: "M.Sc. Iveta Jaroscakova", role: "Innovation Experience Incubator Coordinator", image: "./images/organisers/iveta.jpeg", email: "iveta.jaroscakova@ovgu.de", website: "https://www.hcai.ovgu.de/Staff/Scientific%2BCollaborator/Iveta%2BJaroscakova.html" },
-  { group: "Staff", name: "B.Sc. Gavin Rony Correia", role: "Student Assistant · HCAI", image: "./images/organisers/gavin.jpeg", email: "gavin.correia@gei.de", website: "https://www.hcai.ovgu.de/Staff.html" },
-  { group: "Staff", name: "B.Sc. Shivnandini Ravikumar Chinnannvar", role: "Student Assistant · HCAI", image: "./images/organisers/shivnandini.jpeg", email: "shivnandini.chinnannvar@gei.de", website: "https://www.hcai.ovgu.de/Staff.html" },
+  { group: "Local Organising Committee", name: "M.Sc. Iveta Jaroscakova", role: "Innovation Experience Incubator Coordinator", image: "./images/organisers/iveta.jpeg", email: "iveta.jaroscakova@ovgu.de", website: "https://www.hcai.ovgu.de/" },
+  { group: "Staff", name: "B.Sc. Gavin Rony Correia", role: "Student Assistant · HCAI", image: "./images/organisers/gavin.jpeg", email: "gavin.correia@gei.de", website: "https://www.hcai.ovgu.de/" },
+  { group: "Staff", name: "B.Sc. Shivnandini Ravikumar Chinnannvar", role: "Student Assistant · HCAI", image: "./images/organisers/shivnandini.jpeg", email: "shivnandini.chinnannvar@gei.de", website: "https://www.hcai.ovgu.de/" },
   { group: "Web & Social Media Chair", name: "B.Sc. Yashashwini Sidramappa Awate", role: "Tutor · Digital Communication", image: "./images/organisers/yashashwini-awate.jpg", email: "yashashwini.awate@st.ovgu.de", website: "https://de.linkedin.com/in/yashashwini-awate-b2abb4227" }
 ];
 
