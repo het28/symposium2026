@@ -27,12 +27,6 @@ const organisers = [
   { group: "Web & Social Media Chair", name: "B.Sc. Yashashwini Sidramappa Awate", role: "Tutor · Digital Communication", image: "./images/organisers/yashashwini-awate.jpg", email: "yashashwini.awate@st.ovgu.de", website: "https://de.linkedin.com/in/yashashwini-awate-b2abb4227" }
 ];
 
-function openRegistration(event) {
-  event?.preventDefault();
-  location.hash = "/";
-  setTimeout(() => document.getElementById("registration")?.scrollIntoView({ behavior: "smooth" }), 120);
-}
-
 const topics = ["Responsible AI", "Explainable AI", "Bias & Fairness", "Legal AI", "Personalised Interfaces", "Information Ethics", "Privacy & Safety", "Human-Centred AI"];
 
 function AuroraCanvas() {
@@ -115,7 +109,7 @@ function Header({ page }) {
         </a>
         <div className={`nav-links ${open ? "open" : ""}`}>
           {links.map(([route, label]) => <a className={page === route ? "active" : ""} key={route} href={pageHref(route)} onClick={() => setOpen(false)}>{label}</a>)}
-          <a className="nav-cta" href="#/register" onClick={event => { setOpen(false); openRegistration(event); }}>Register <ArrowRight size={15} /></a>
+          <a className="nav-cta" href="https://forms.gle/2ajqTr4CAzZLPVUR9" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>Register <ArrowRight size={15} /></a>
         </div>
         <button className="menu-btn" onClick={() => setOpen(!open)} aria-label="Toggle menu">{open ? <X /> : <Menu />}</button>
       </nav>
@@ -186,7 +180,7 @@ function Hero() {
           <div><CalendarDays /><span><small>Save the date</small>30 Nov—1 Dec 2026</span></div>
           <i />
           <div><MapPin /><span><small>Meet us in</small>Magdeburg, Germany</span></div>
-          <a className="hero-register" href="#/register" onClick={openRegistration}>Register <ArrowRight size={15} /></a>
+          <a className="hero-register" href="https://forms.gle/2ajqTr4CAzZLPVUR9" target="_blank" rel="noopener noreferrer">Register <ArrowRight size={15} /></a>
         </motion.div>
       </div>
       <div className="scroll-cue"><span /> Scroll to discover</div>
@@ -317,8 +311,7 @@ function Registration() {
           <span className="kicker">HCAI Symposium 2026</span>
           <h2>Be part of what<br />comes <em>next.</em></h2>
           <p>Seats are limited. Register your interest and join the conversation shaping a more human future for artificial intelligence.</p>
-          <a className="button light" href="mailto:het.mehta@ovgu.de?subject=HCAI Symposium 2026 registration">Register your interest <ArrowRight size={18} /></a>
-          <div className="reg-note"><span /> Free attendance · In person & online</div>
+          <a className="button light" href="https://forms.gle/2ajqTr4CAzZLPVUR9" target="_blank" rel="noopener noreferrer">Register your interest <ArrowRight size={18} /></a>
         </FadeIn>
       </div>
     </section>
