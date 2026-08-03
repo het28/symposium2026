@@ -20,7 +20,7 @@ const schedule = [
 
 const organisers = [
   { group: "General Chair", name: "Prof. Dr.-Ing. Ernesto William De Luca", role: "Head, Human-Centred Artificial Intelligence Research Group", image: "./images/organisers/ernesto.jpg", email: "ernesto.deluca@ovgu.de", website: "https://ernestodeluca.eu/cv" },
-  { group: "Local Organising Committee", name: "M.Sc. Het Darshan Mehta", role: "Scientific Researcher · HCAI, OVGU", image: "./images/organisers/het.jpeg", email: "het.mehta@ovgu.de", website: "https://hetmehta.eu/" },
+  { group: "Local Organising Committee", name: "M.Sc. Het Darshan Mehta", role: "PhD Researcher · HCAI, OVGU", image: "./images/organisers/het.jpeg", email: "het.mehta@ovgu.de", website: "https://hetmehta.eu/" },
   { group: "Local Organising Committee", name: "M.Sc. Iveta Jaroscakova", role: "Innovation Experience Incubator Coordinator", image: "./images/organisers/iveta.jpeg", email: "iveta.jaroscakova@ovgu.de", website: "https://www.hcai.ovgu.de/" },
   { group: "Staff", name: "B.Sc. Gavin Rony Correia", role: "Student Assistant · HCAI", image: "./images/organisers/gavin.jpeg", email: "gavin.correia@gei.de", website: "https://www.hcai.ovgu.de/" },
   { group: "Staff", name: "B.Sc. Shivnandini Ravikumar Chinnannvar", role: "Student Assistant · HCAI", image: "./images/organisers/shivnandini.jpeg", email: "shivnandini.chinnannvar@gei.de", website: "https://www.hcai.ovgu.de/" },
