@@ -11,27 +11,10 @@ const speakers = Array.from({ length: 6 }, (_, index) => ({ id: index + 1, name:
 
 const schedule = [
   {
-    day: "Day 01", date: "30 November 2026", weekday: "Monday", events: [
-      ["13:00–14:00", "Welcome & opening", "Prof. Dr.-Ing. Ernesto William De Luca"],
-      ["14:00–15:00", "Keynote session", "Speaker and talk · TBA"],
-      ["15:00–15:30", "Coffee break", "Connect · Recharge"],
-      ["15:30–16:30", "Invited talk", "Speaker and talk · TBA"],
-      ["16:30–17:30", "Invited talk", "Speaker and talk · TBA"],
-      ["18:30", "Meet & Greet", "Location and details · TBA"]
-    ]
+    day: "Day 01", date: "30 November 2026", weekday: "Monday"
   },
   {
-    day: "Day 02", date: "1 December 2026", weekday: "Tuesday", events: [
-      ["08:00–09:00", "Welcome coffee", "Doors open"],
-      ["09:00–10:00", "Keynote session", "Speaker and talk · TBA"],
-      ["10:00–11:00", "Invited talk", "Speaker and talk · TBA"],
-      ["11:00–13:00", "Lunch break", "Lunch details · TBA"],
-      ["13:00–14:00", "Invited talk", "Speaker and talk · TBA"],
-      ["14:00–15:00", "Invited talk", "Speaker and talk · TBA"],
-      ["15:00–15:30", "Coffee break", "Connect · Recharge"],
-      ["15:30–16:30", "Panel discussion", "Panellists · TBA"],
-      ["16:30", "Closing event", "Details · TBA"]
-    ]
+    day: "Day 02", date: "1 December 2026", weekday: "Tuesday"
   }
 ];
 
@@ -266,16 +249,12 @@ function Schedule() {
       <div className="container">
         <FadeIn className="schedule-page-head">
           <div><span className="kicker">2026 programme</span><h2>Two days.<br /><em>One shared future.</em></h2></div>
-          <p>The programme structure follows the symposium format. Session speakers, titles, and final logistical details remain TBA.</p>
+          <p>The complete programme and session details will be announced soon.</p>
         </FadeIn>
         <div className="schedule-days">
           {schedule.map((day, dayIndex) => <FadeIn className="schedule-day glass" key={day.day} delay={dayIndex * .1}>
             <div className="schedule-day-head"><div><small>{day.day} · {day.weekday}</small><h3>{day.date}</h3></div><CalendarDays /></div>
-            <div className="timeline">
-              {day.events.map(([time, title, person]) => <div className="timeline-item" key={time + title}>
-                <time>{time}</time><span className="timeline-dot" /><div><h3>{title}</h3><p>{person}</p></div>
-              </div>)}
-            </div>
+            <div className="schedule-tba"><span>TBA</span><p>Programme coming soon</p></div>
           </FadeIn>)}
         </div>
       </div>
